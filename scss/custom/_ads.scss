@@ -1,0 +1,39 @@
+/* --------------------------------
+
+	Ads
+
+-------------------------------- */
+.ads-desktop {
+	position: fixed;
+	z-index: 900;
+}
+.ads-mobile {
+	position: fixed;
+	z-index: 900;
+}
+.scrolled{
+  bottom: 0px;
+}
+
+@media (max-width : 480px) 
+{ .ads-desktop
+	{ display: none; }
+}
+
+@media (min-width : 480px) 
+{ .ads-mobile
+	{ display: none; }
+}
+
+.top-right {
+	position: absolute;
+	top: -8px;
+	right: 0px;
+	color: black;
+}
+
+/* --------------------------------
+
+	End Ads
+
+-------------------------------- */

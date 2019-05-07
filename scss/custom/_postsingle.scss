@@ -1,0 +1,105 @@
+/* --------------------------------
+
+	Post single
+
+-------------------------------- */
+.post-single h1, .post-single h2, .post-single h3, .post-single h4, .post-single h5, .post-single h6 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: 'Arial Rounded MT Bold';
+}
+.post-single h2, .post-single h3, .post-single h4, .post-single h5, .post-single h6 {
+	text-align: left;
+}
+
+.post-single h1{
+	font-size: 2.5em;
+}
+.post-single h2{
+	font-size: 1.6rem;
+}
+.post-single h3{
+	font-size: 1rem;
+}
+
+.post-single p, {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.post-single b, {
+	font-family: 'Arial Rounded MT Bold';
+	font-weight: 900;
+}
+
+.content {
+	font-family: 'Myriad Pro Bold';
+	color: #3c484e;
+	letter-spacing: 0;
+	text-rendering: optimizeLegibility;
+}
+.post-single .title h1{
+	text-align-last: center;
+	font-family: 'Arial Rounded MT Bold';
+	color: $title-post;
+}
+.post-single .content p{
+	font-family: 'Myriad Pro Light';
+	font-size: 22px;
+	font-weight: 600;
+	color: $text-primary;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* social */
+.social-media a { color: #fff}
+.btn-facebook { background: #3b5998;}
+.btn-twitter { background: #00acee;}
+.btn-google { background: #dd4b39;}
+.btn-pinterest { background: #c8232c;}
+.btn-linkedin { background: #0e76a8;}
+.social-media:hover a { color: #fff}
+.btn-facebook:hover { background: #2f4679;}
+.btn-twitter:hover { background: #0089bd;}
+.btn-google:hover { background: #b03b2d;}
+.btn-pinterest:hover { background: #9f1b23;}
+.btn-linkedin:hover { background: #0b5e85;}
+
+/**/
+
+@media (max-width: 615px){
+.-right-text-sm {
+text-align: left!important;
+}
+  }
+
+.mb-h {
+margin-bottom: 8em
+}
+
+.more-posts-text {
+	font-family: 'Myriad Pro Light';
+	font-size: 18px;
+	font-weight: 600;
+	color: $text-active;
+}
+
+.title-next{
+	font-size: 1em;
+}

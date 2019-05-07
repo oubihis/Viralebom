@@ -1,0 +1,146 @@
+/* --------------------------------
+
+  Header
+
+-------------------------------- */
+
+@import 'custom/colors';
+
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Myriad Pro Bold';
+  color:$text-primary;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  font-family: 'Myriad Pro Bold';
+  color:$text-active;
+}
+
+
+/* --------------------------------
+
+  label hot navbar
+
+-------------------------------- */
+
+.main-navigation a{
+  display: block;
+  display: -ms-flexbox;
+  position: relative;
+  vertical-align: middle;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Myriad Pro Bold';
+}
+.label {
+  position: absolute;
+  z-index: 3;
+  padding: 0 4px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 8px;
+  border-radius: 3px;
+  height: 15px;
+  line-height: 12px;
+  box-shadow: 0 0 2px rgba(0,0,0,.3);
+  text-transform: uppercase;
+  font-weight: 700;
+  right: -10px;
+  box-shadow: none;
+  top: 2px;
+}
+.hot {
+  font-size: 8px;
+  font-family: "Arial Rounded MT Bold", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  background-color: rgb(247, 77, 83);
+  line-height: 1.7;
+    /*Animation*/
+  cursor: pointer;
+  box-shadow: 0 0 0 rgb(247, 77, 83);
+  animation: hot 2s infinite;
+}
+.hot:hover {
+  animation: none;
+}
+
+@-webkit-keyframes hot {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgb(247, 77, 83);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 5px rgba(247, 77, 83, 0.27);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(247, 77, 83, 0.27);
+  }
+}
+@keyframes hot {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgb(247, 77, 83);
+    box-shadow: 0 0 0 0 rgb(247, 77, 83);;
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 5px rgba(247, 77, 83, 0.27);
+      box-shadow: 0 0 0 5px rgba(247, 77, 83, 0.27);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(247, 77, 83, 0.27);
+      box-shadow: 0 0 0 0 rgba(247, 77, 83, 0.27);
+  }
+}
+.new {
+  font-size: 8px;
+  font-family: "Arial Rounded MT Bold", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  background-color: rgb(77, 247, 185);
+  line-height: 1.7;
+  /*Animation*/
+  cursor: pointer;
+  box-shadow: 0 0 0 rgb(77, 247, 185);
+  animation: new 2s infinite;
+}
+.new:hover {
+  animation: none;
+}
+
+@-webkit-keyframes new {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgb(77, 247, 185);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 5px rgba(46, 239, 42, 0.09);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(46, 239, 42, 0.09);
+  }
+}
+@keyframes new {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgb(77, 247, 185);
+    box-shadow: 0 0 0 0 rgb(77, 247, 185);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 5px rgba(46, 239, 42, 0.09);
+      box-shadow: 0 0 0 5px rgba(46, 239, 42, 0.09);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(46, 239, 42, 0.09);
+      box-shadow: 0 0 0 0 rgba(46, 239, 42, 0.09);
+  }
+}
+
+/* --------------------------------
+
+  End label hot navbar
+
+-------------------------------- */
+
+/* --------------------------------
+
+  End Header
+
+-------------------------------- */
